@@ -12,10 +12,10 @@ test_n_results = df.drop(train.index)
 #create test dataframe which will be used for prediction-
 test=test_n_results.drop('Sales', 1)
 #write everything into csv-
-test.to_csv('inputs/test.csv')
-test_n_results.to_csv('inputs/results.csv')
-train.to_csv('inputs/train.csv')
-ds.to_csv('inputs/store.csv')
+test.to_csv('inputs/test.csv', index = False)
+test_n_results.to_csv('inputs/results.csv', index = False)
+train.to_csv('inputs/train.csv', index = False)
+ds.to_csv('inputs/store.csv', index = False)
 
 
 
