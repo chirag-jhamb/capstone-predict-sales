@@ -1,7 +1,7 @@
 # Capstone Project
 # Predicting sales of Rossman stores
 
-![Rossman](https://kaggle2.blob.core.windows.net/competitions/kaggle/4594/logos/front_page.png)
+![Rossman](http://aktualnerabaty.pl/wp-content/themes/PressGrid/images/marki/logo-rossmann.jpg)
 
 ### Primary goal: Given historical sales data for 1,115 Rossmann stores. The task is to forecast the "Sales" column for the test set. The data can be found here- https://www.kaggle.com/c/rossmann-store-sales/data
 ### Data-
